@@ -6,3 +6,73 @@
 [2023-02-26 08:32:07,846: INFO: prepare_base_model]: base model is saved at artifacts\models\base_model.h5
 [2023-02-26 08:32:07,985: INFO: prepare_base_model]: >>>>> stage prepare a base model completed!<<<<<
 
+[2023-02-26 08:54:50,679: INFO: transfer_learning]: 
+********************
+[2023-02-26 08:54:50,680: INFO: transfer_learning]: >>>>> stage transfer_learning started <<<<<
+[2023-02-26 08:54:50,685: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-02-26 08:54:56,339: INFO: transfer_learning]: >>>>> stage transfer_learning completed!<<<<<
+
+[2023-02-26 09:38:26,741: INFO: transfer_learning]: 
+********************
+[2023-02-26 09:38:26,769: INFO: transfer_learning]: >>>>> stage transfer_learning started <<<<<
+[2023-02-26 09:38:26,773: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-02-26 09:38:45,061: INFO: transfer_learning]: >>>>> stage transfer_learning completed!<<<<<
+
+[2023-02-26 09:44:30,931: INFO: transfer_learning]: 
+********************
+[2023-02-26 09:44:30,932: INFO: transfer_learning]: >>>>> stage transfer_learning started <<<<<
+[2023-02-26 09:44:30,936: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-02-26 09:44:31,727: INFO: transfer_learning]: >>>>> stage transfer_learning completed!<<<<<
+
+[2023-02-26 09:45:22,314: INFO: transfer_learning]: 
+********************
+[2023-02-26 09:45:22,315: INFO: transfer_learning]: >>>>> stage transfer_learning started <<<<<
+[2023-02-26 09:45:22,320: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-02-26 09:45:23,338: ERROR: transfer_learning]: All layers added to a Sequential model should have unique names. Name "dense" is already the name of a layer in this model. Update the `name` argument to pass a unique name.
+Traceback (most recent call last):
+  File "src/transfer_learning.py", line 55, in <module>
+    main(config_path=parsed_args.config)
+  File "src/transfer_learning.py", line 39, in main
+    tf.keras.layers.Dense(2, activation="softmax")
+  File "E:\FullStack_Data_Science_Bootcamp\jupyte_notebook\Recording Class\Deep Learning\Practice\Transfer Learning\Transfer-Learning-Deep-Learning-\env\lib\site-packages\tensorflow\python\trackable\base.py", line 205, in _method_wrapper
+    result = method(self, *args, **kwargs)
+  File "E:\FullStack_Data_Science_Bootcamp\jupyte_notebook\Recording Class\Deep Learning\Practice\Transfer Learning\Transfer-Learning-Deep-Learning-\env\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "E:\FullStack_Data_Science_Bootcamp\jupyte_notebook\Recording Class\Deep Learning\Practice\Transfer Learning\Transfer-Learning-Deep-Learning-\env\lib\site-packages\keras\engine\sequential.py", line 194, in add
+    "All layers added to a Sequential model "
+ValueError: All layers added to a Sequential model should have unique names. Name "dense" is already the name of a layer in this model. Update the `name` argument to pass a unique name.
+[2023-02-26 09:47:12,618: INFO: transfer_learning]: 
+********************
+[2023-02-26 09:47:12,619: INFO: transfer_learning]: >>>>> stage transfer_learning started <<<<<
+[2023-02-26 09:47:12,623: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-02-26 09:47:13,503: ERROR: transfer_learning]: 'output layer/' is not a valid root scope name. A root scope name has to match the following pattern: ^[A-Za-z0-9.][A-Za-z0-9_.\\/>-]*$
+Traceback (most recent call last):
+  File "src/transfer_learning.py", line 55, in <module>
+    main(config_path=parsed_args.config)
+  File "src/transfer_learning.py", line 39, in main
+    tf.keras.layers.Dense(2, activation="softmax", name="output_layer")
+  File "E:\FullStack_Data_Science_Bootcamp\jupyte_notebook\Recording Class\Deep Learning\Practice\Transfer Learning\Transfer-Learning-Deep-Learning-\env\lib\site-packages\tensorflow\python\trackable\base.py", line 205, in _method_wrapper
+    result = method(self, *args, **kwargs)
+  File "E:\FullStack_Data_Science_Bootcamp\jupyte_notebook\Recording Class\Deep Learning\Practice\Transfer Learning\Transfer-Learning-Deep-Learning-\env\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "E:\FullStack_Data_Science_Bootcamp\jupyte_notebook\Recording Class\Deep Learning\Practice\Transfer Learning\Transfer-Learning-Deep-Learning-\env\lib\contextlib.py", line 112, in __enter__
+    return next(self.gen)
+ValueError: 'output layer/' is not a valid root scope name. A root scope name has to match the following pattern: ^[A-Za-z0-9.][A-Za-z0-9_.\\/>-]*$
+[2023-02-26 09:47:56,811: INFO: transfer_learning]: 
+********************
+[2023-02-26 09:47:56,822: INFO: transfer_learning]: >>>>> stage transfer_learning started <<<<<
+[2023-02-26 09:47:56,844: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-02-26 09:48:00,141: INFO: transfer_learning]: >>>>> stage transfer_learning completed!<<<<<
+
+[2023-02-26 10:31:40,741: INFO: transfer_learning]: 
+********************
+[2023-02-26 10:31:40,752: INFO: transfer_learning]: >>>>> stage transfer_learning started <<<<<
+[2023-02-26 10:31:40,758: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-02-26 10:35:49,228: INFO: transfer_learning]: >>>>> stage transfer_learning completed!<<<<<
+
+[2023-02-26 10:40:01,311: INFO: transfer_learning]: 
+********************
+[2023-02-26 10:40:01,311: INFO: transfer_learning]: >>>>> stage transfer_learning started <<<<<
+[2023-02-26 10:40:01,315: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-02-26 10:43:52,095: INFO: transfer_learning]: >>>>> stage transfer_learning completed!<<<<<
+
