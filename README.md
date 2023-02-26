@@ -1,4 +1,4 @@
-# generic-python-project-template
+# Transfer Learning
 generic-python-project-template
 
 ## STEPS -

@@ -1,0 +1,8 @@
+[2023-02-26 08:28:00,273: INFO: prepare_base_model]: 
+********************
+[2023-02-26 08:28:00,273: INFO: prepare_base_model]: >>>>> stage prepare a base model started <<<<<
+[2023-02-26 08:28:00,339: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2023-02-26 08:31:51,795: INFO: common]: created directory at: artifacts\models
+[2023-02-26 08:32:07,846: INFO: prepare_base_model]: base model is saved at artifacts\models\base_model.h5
+[2023-02-26 08:32:07,985: INFO: prepare_base_model]: >>>>> stage prepare a base model completed!<<<<<
+
